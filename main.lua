@@ -3,7 +3,7 @@ local Calculator = {};
 --oop structure cuz why not????
 function Calculator:new(num1, num2)
     self.num1 = num1 or 1;
-    self.num2 = num2 or 3;
+    self.num2 = num2 or 2;
     
     return setmetatable(Calculator, {});
 end
